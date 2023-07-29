@@ -1,0 +1,20 @@
+ 2023/07/29 00:12:58.702 [D]  Partition:0, Offset:31, Key:, Value:sdadada
+2023/07/29 00:12:58.702 [D]  Partition:0, Offset:32, Key:, Value:asdasdasddassdasdasdasda
+2023/07/29 00:12:58.702 [D]  Partition:0, Offset:33, Key:, Value:asdasdasddassdasdasdasddassda
+2023/07/29 00:12:58.702 [D]  Partition:0, Offset:34, Key:, Value:asdasdasddassdasdasdasddas
+2023/07/29 00:12:58.709 [D]  Partition:0, Offset:35, Key:, Value:asdasdasddassdasdasdasddasasd
+2023/07/29 00:12:58.709 [D]  Partition:0, Offset:36, Key:, Value:asdasdasddassdasdasdasddasasd
+2023/07/29 00:12:58.709 [D]  Partition:0, Offset:37, Key:, Value:asdasdasddassdasdasdasddasasd
+2023/07/29 00:12:58.709 [D]  Partition:0, Offset:38, Key:, Value:addrasd
+2023/07/29 00:12:58.718 [D]  Partition:0, Offset:39, Key:, Value:asdasdasddassdasdasdasddasasdda
+2023/07/29 00:12:58.718 [D]  Partition:0, Offset:40, Key:, Value:asdasdasddassdasdasdasddassda
+2023/07/29 00:12:59.021 [D]  send to es success
+2023/07/29 00:12:59.028 [D]  send to es success
+2023/07/29 00:12:59.028 [D]  send to es success
+2023/07/29 00:12:59.030 [D]  send to es success
+2023/07/29 00:12:59.032 [D]  send to es success
+2023/07/29 00:12:59.032 [D]  send to es success
+2023/07/29 00:12:59.032 [D]  send to es success
+2023/07/29 00:12:59.032 [D]  send to es success
+2023/07/29 00:12:59.035 [D]  send to es success
+2023/07/29 00:12:59.038 [D]  send to es success

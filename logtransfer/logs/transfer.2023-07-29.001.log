@@ -1,0 +1,190 @@
+
+2023/07/28 20:19:43.620 [D]  init log succ, config:main.AppConfig{logPath:"./logs/transfer.log", logLevel:"debug", kafkaAddr:"localhost:9092", esAddr:"http://localhost:9200/", esThreadNum:8, etcdAddr:"localhost:2379", etcdKeyFormat:"/logtransfer/%s/log_config"}
+2023/07/28 20:19:48.631 [E]  connect to es error:no Elasticsearch node available
+2023/07/28 20:19:48.631 [E]  init es failed, err:no Elasticsearch node available
+2023/07/28 20:19:57.988 [D]  init log succ, config:main.AppConfig{logPath:"./logs/transfer.log", logLevel:"debug", kafkaAddr:"localhost:9092", esAddr:"http://localhost:9200/", esThreadNum:8, etcdAddr:"localhost:2379", etcdKeyFormat:"/logtransfer/%s/log_config"}
+2023/07/28 20:20:03.005 [E]  connect to es error:no Elasticsearch node available
+2023/07/28 20:20:03.005 [E]  init es failed, err:no Elasticsearch node available
+2023/07/28 21:39:59.475 [D]  init log succ, config:main.AppConfig{logPath:"./logs/transfer.log", logLevel:"debug", kafkaAddr:"localhost:9092", esAddr:"http://localhost:9200/", esThreadNum:8, etcdAddr:"localhost:2379", etcdKeyFormat:"/logtransfer/%s/log_config"}
+2023/07/28 21:40:04.485 [E]  connect to es error:no Elasticsearch node available
+2023/07/28 21:40:04.485 [E]  init es failed, err:no Elasticsearch node available
+2023/07/28 21:41:08.201 [D]  init log succ, config:main.AppConfig{logPath:"./logs/transfer.log", logLevel:"debug", kafkaAddr:"localhost:9092", esAddr:"localhost:9200", esThreadNum:8, etcdAddr:"localhost:2379", etcdKeyFormat:"/logtransfer/%s/log_config"}
+2023/07/28 21:41:13.204 [E]  connect to es error:no Elasticsearch node available
+2023/07/28 21:41:13.204 [E]  init es failed, err:no Elasticsearch node available
+2023/07/28 21:42:59.791 [D]  init log succ, config:main.AppConfig{logPath:"./logs/transfer.log", logLevel:"debug", kafkaAddr:"localhost:9092", esAddr:"http://127.0.0.1:9200/", esThreadNum:8, etcdAddr:"localhost:2379", etcdKeyFormat:"/logtransfer/%s/log_config"}
+2023/07/28 21:43:04.797 [E]  connect to es error:no Elasticsearch node available
+2023/07/28 21:43:04.797 [E]  init es failed, err:no Elasticsearch node available
+2023/07/28 21:47:23.525 [D]  init log succ, config:main.AppConfig{logPath:"./logs/transfer.log", logLevel:"debug", kafkaAddr:"localhost:9092", esAddr:"http://127.0.0.1:9200/", esThreadNum:8, etcdAddr:"localhost:2379", etcdKeyFormat:"/logtransfer/%s/log_config"}
+2023/07/28 21:47:23.611 [D]  conn to es success
+2023/07/28 21:47:23.612 [D]  etcd addr:localhost:2379
+2023/07/28 21:47:23.612 [D]  etcd watch key:[/logtransfer/192.168.112.100/log_config /logtransfer/172.17.0.1/log_config /logtransfer/172.18.0.1/log_config /logtransfer/172.19.0.1/log_config], timeout:5000000000
+2023/07/28 21:47:23.613 [D]  init etcd succ
+2023/07/28 21:56:12.125 [D]  PUT "/logtransfer/192.168.112.100/log_config" : "user"
+
+2023/07/28 21:56:12.126 [E]  unmarshal failed,err:invalid character 'u' looking for beginning of value conf:user
+2023/07/28 21:57:42.926 [D]  init log succ, config:main.AppConfig{logPath:"./logs/transfer.log", logLevel:"debug", kafkaAddr:"localhost:9092", esAddr:"http://127.0.0.1:9200/", esThreadNum:8, etcdAddr:"localhost:2379", etcdKeyFormat:"/logtransfer/%s/log_config"}
+2023/07/28 21:57:42.955 [D]  conn to es success
+2023/07/28 21:57:42.956 [D]  etcd addr:localhost:2379
+2023/07/28 21:57:42.956 [D]  etcd watch key:[/logtransfer/192.168.112.100/log_config /logtransfer/172.17.0.1/log_config /logtransfer/172.18.0.1/log_config /logtransfer/172.19.0.1/log_config], timeout:5000000000
+2023/07/28 21:57:42.963 [D]  init etcd succ
+2023/07/28 21:58:16.374 [W]  get key /logtransfer/192.168.112.100/log_config failed, err:context deadline exceeded
+2023/07/28 21:58:22.953 [W]  get key /logtransfer/172.17.0.1/log_config failed, err:context deadline exceeded
+2023/07/28 21:58:27.283 [W]  get key /logtransfer/172.18.0.1/log_config failed, err:context deadline exceeded
+2023/07/28 21:58:37.913 [D]  PUT "/logtransfer/192.168.112.100/log_config" : "user"
+
+2023/07/28 21:58:37.913 [E]  unmarshal failed,err:invalid character 'u' looking for beginning of value conf:user
+2023/07/28 22:00:20.601 [D]  init log succ, config:main.AppConfig{logPath:"./logs/transfer.log", logLevel:"debug", kafkaAddr:"localhost:9092", esAddr:"http://127.0.0.1:9200/", esThreadNum:8, etcdAddr:"localhost:2379", etcdKeyFormat:"/logtransfer/%s/log_config"}
+2023/07/28 22:00:20.619 [D]  conn to es success
+2023/07/28 22:00:20.622 [D]  etcd addr:localhost:2379
+2023/07/28 22:00:20.624 [D]  etcd watch key:[/logtransfer/192.168.112.100/log_config /logtransfer/172.17.0.1/log_config /logtransfer/172.18.0.1/log_config /logtransfer/172.19.0.1/log_config], timeout:5000000000
+2023/07/28 22:00:20.625 [D]  init etcd succ
+2023/07/28 22:00:20.627 [D]   "/logtransfer/192.168.112.100/log_config" : "user"
+
+2023/07/28 22:00:20.629 [E]  unmarshal failed,err:invalid character 'u' looking for beginning of value conf:user
+2023/07/28 22:02:10.706 [D]  init log succ, config:main.AppConfig{logPath:"./logs/transfer.log", logLevel:"debug", kafkaAddr:"localhost:9092", esAddr:"http://127.0.0.1:9200/", esThreadNum:8, etcdAddr:"localhost:2379", etcdKeyFormat:"/logtransfer/%s/log_config"}
+2023/07/28 22:02:10.760 [D]  conn to es success
+2023/07/28 22:02:10.761 [D]  etcd addr:localhost:2379
+2023/07/28 22:02:10.761 [D]  etcd watch key:[/logtransfer/192.168.112.100/log_config /logtransfer/172.17.0.1/log_config /logtransfer/172.18.0.1/log_config /logtransfer/172.19.0.1/log_config], timeout:5000000000
+2023/07/28 22:02:10.771 [D]  init etcd succ
+2023/07/28 22:02:10.780 [D]   "/logtransfer/192.168.112.100/log_config" : "user"
+
+2023/07/28 22:02:20.078 [E]  unmarshal failed,err:invalid character 'u' looking for beginning of value conf:user
+2023/07/28 22:05:43.854 [D]  PUT "/logtransfer/192.168.112.100/log_config" : "user"
+
+2023/07/28 22:07:10.771 [E]  unmarshal failed,err:invalid character 'u' looking for beginning of value conf:user
+2023/07/28 22:07:19.596 [D]  PUT "/logtransfer/192.168.112.100/log_config" : "user"
+
+2023/07/28 22:10:48.423 [E]  unmarshal failed,err:invalid character 'u' looking for beginning of value conf:user
+2023/07/28 22:10:49.424 [D]  PUT "/logtransfer/192.168.112.100/log_config" : "[\"user\"]"
+
+2023/07/28 22:11:06.369 [D]  connect to kafka succ, topic:user
+2023/07/28 22:11:48.748 [E]  Failed to start consumer for partition 0: dial tcp 192.168.0.101:9092: connect: connection refused
+
+2023/07/28 22:12:25.940 [D]  PUT "/logtransfer/192.168.112.100/log_config" : "[\"user\"]"
+
+2023/07/28 22:12:43.998 [D]  connect to kafka succ, topic:user
+2023/07/28 22:13:44.751 [E]  Failed to start consumer for partition 0: dial tcp 192.168.0.101:9092: connect: connection refused
+
+2023/07/28 22:14:41.909 [D]  init log succ, config:main.AppConfig{logPath:"./logs/transfer.log", logLevel:"debug", kafkaAddr:"192.168.112.100:9092", esAddr:"http://127.0.0.1:9200/", esThreadNum:8, etcdAddr:"192.168.112.100:2379", etcdKeyFormat:"/logtransfer/%s/log_config"}
+2023/07/28 22:14:41.931 [D]  conn to es success
+2023/07/28 22:14:41.943 [D]  etcd addr:192.168.112.100:2379
+2023/07/28 22:14:41.943 [D]  etcd watch key:[/logtransfer/192.168.112.100/log_config /logtransfer/172.17.0.1/log_config /logtransfer/172.18.0.1/log_config /logtransfer/172.19.0.1/log_config], timeout:5000000000
+2023/07/28 22:14:41.944 [D]  init etcd succ
+2023/07/28 22:14:41.960 [D]   "/logtransfer/192.168.112.100/log_config" : "[\"user\"]"
+
+2023/07/28 22:14:48.745 [D]  connect to kafka succ, topic:user
+2023/07/28 22:15:06.758 [D]  PUT "/logtransfer/192.168.112.100/log_config" : "[\"user\"]"
+
+2023/07/28 22:15:30.803 [E]  Failed to start consumer for partition 0: dial tcp 192.168.0.101:9092: connect: connection refused
+
+2023/07/28 22:15:39.224 [D]  connect to kafka succ, topic:user
+2023/07/28 22:16:29.013 [E]  Failed to start consumer for partition 0: dial tcp 192.168.0.101:9092: connect: connection refused
+
+2023/07/28 22:21:06.516 [D]  init log succ, config:main.AppConfig{logPath:"./logs/transfer.log", logLevel:"debug", kafkaAddr:"192.168.112.100:9092", esAddr:"http://127.0.0.1:9200/", esThreadNum:8, etcdAddr:"192.168.112.100:2379", etcdKeyFormat:"/logtransfer/%s/log_config"}
+2023/07/28 22:21:06.519 [D]  conn to es success
+2023/07/28 22:21:06.520 [D]  etcd addr:192.168.112.100:2379
+2023/07/28 22:21:06.520 [D]  etcd watch key:[/logtransfer/192.168.112.100/log_config /logtransfer/172.17.0.1/log_config /logtransfer/172.18.0.1/log_config /logtransfer/172.19.0.1/log_config], timeout:5000000000
+2023/07/28 22:21:06.522 [D]  init etcd succ
+2023/07/28 22:21:06.524 [D]   "/logtransfer/192.168.112.100/log_config" : "[\"user\"]"
+
+2023/07/28 22:21:43.506 [D]  connect to kafka succ, topic:user
+2023/07/28 22:24:05.384 [E]  Failed to start consumer for partition 0: dial tcp 192.168.0.101:9092: connect: connection refused
+
+2023/07/28 22:33:35.380 [D]  init log succ, config:main.AppConfig{logPath:"./logs/transfer.log", logLevel:"debug", kafkaAddr:"192.168.112.100:9092", esAddr:"http://127.0.0.1:9200/", esThreadNum:8, etcdAddr:"192.168.112.100:2379", etcdKeyFormat:"/logtransfer/%s/log_config"}
+2023/07/28 22:33:35.389 [D]  conn to es success
+2023/07/28 22:33:35.389 [D]  etcd addr:192.168.112.100:2379
+2023/07/28 22:33:35.390 [D]  etcd watch key:[/logtransfer/192.168.112.100/log_config /logtransfer/172.17.0.1/log_config /logtransfer/172.18.0.1/log_config /logtransfer/172.19.0.1/log_config], timeout:5000000000
+2023/07/28 22:33:35.391 [D]  init etcd succ
+2023/07/28 22:33:35.398 [D]   "/logtransfer/192.168.112.100/log_config" : "[\"user\"]"
+
+2023/07/28 22:33:49.738 [D]  init log succ, config:main.AppConfig{logPath:"./logs/transfer.log", logLevel:"debug", kafkaAddr:"192.168.112.100:9092", esAddr:"http://127.0.0.1:9200/", esThreadNum:8, etcdAddr:"192.168.112.100:2379", etcdKeyFormat:"/logtransfer/%s/log_config"}
+2023/07/28 22:33:49.742 [D]  conn to es success
+2023/07/28 22:33:49.744 [D]  etcd addr:192.168.112.100:2379
+2023/07/28 22:33:49.744 [D]  etcd watch key:[/logtransfer/192.168.112.100/log_config /logtransfer/172.17.0.1/log_config /logtransfer/172.18.0.1/log_config /logtransfer/172.19.0.1/log_config], timeout:5000000000
+2023/07/28 22:33:49.748 [D]  init etcd succ
+2023/07/28 22:33:49.751 [D]   "/logtransfer/192.168.112.100/log_config" : "[\"user\"]"
+
+2023/07/28 22:33:56.435 [D]  connect to kafka succ, topic:user
+2023/07/28 22:35:29.539 [D]  PUT "/logtransfer/192.168.112.100/log_config" : "[\"user\"]"
+
+2023/07/28 22:35:32.605 [D]  connect to kafka succ, topic:user
+2023/07/28 22:40:51.599 [D]  init log succ, config:main.AppConfig{logPath:"./logs/transfer.log", logLevel:"debug", kafkaAddr:"192.168.112.100:9092", esAddr:"http://127.0.0.1:9200/", esThreadNum:8, etcdAddr:"192.168.112.100:2379", etcdKeyFormat:"/logtransfer/%s/log_config"}
+2023/07/28 22:40:51.604 [D]  conn to es success
+2023/07/28 22:40:51.604 [D]  etcd addr:192.168.112.100:2379
+2023/07/28 22:40:51.604 [D]  etcd watch key:[/logtransfer/192.168.112.100/log_config /logtransfer/172.17.0.1/log_config /logtransfer/172.18.0.1/log_config /logtransfer/172.19.0.1/log_config], timeout:5000000000
+2023/07/28 22:40:51.606 [D]  init etcd succ
+2023/07/28 22:40:51.608 [D]   "/logtransfer/192.168.112.100/log_config" : "[\"user\"]"
+
+2023/07/28 22:40:57.595 [D]  connect to kafka succ, topic:user
+2023/07/28 23:04:02.055 [D]  PUT "/logtransfer/192.168.112.100/log_config" : "[\"log\"]"
+
+2023/07/28 23:04:06.628 [D]  connect to kafka succ, topic:log
+2023/07/28 23:06:19.820 [D]  init log succ, config:main.AppConfig{logPath:"./logs/transfer.log", logLevel:"debug", kafkaAddr:"192.168.112.100:9092", esAddr:"http://127.0.0.1:9200/", esThreadNum:8, etcdAddr:"192.168.112.100:2379", etcdKeyFormat:"/logtransfer/%s/log_config"}
+2023/07/28 23:06:19.823 [D]  conn to es success
+2023/07/28 23:06:19.826 [D]  etcd addr:192.168.112.100:2379
+2023/07/28 23:06:19.826 [D]  etcd watch key:[/logtransfer/192.168.112.100/log_config /logtransfer/172.17.0.1/log_config /logtransfer/172.18.0.1/log_config /logtransfer/172.19.0.1/log_config], timeout:5000000000
+2023/07/28 23:06:19.828 [D]  init etcd succ
+2023/07/28 23:06:19.828 [D]   "/logtransfer/192.168.112.100/log_config" : "[\"log\"]"
+
+2023/07/28 23:06:24.076 [D]  connect to kafka succ, topic:log
+2023/07/28 23:08:54.172 [D]  PUT "/logtransfer/192.168.112.100/log_config" : "[\"log\"]"
+
+2023/07/28 23:09:03.950 [D]  connect to kafka succ, topic:log
+2023/07/28 23:13:39.612 [D]  init log succ, config:main.AppConfig{logPath:"./logs/transfer.log", logLevel:"debug", kafkaAddr:"192.168.112.100:9092", esAddr:"http://127.0.0.1:9200/", esThreadNum:8, etcdAddr:"192.168.112.100:2379", etcdKeyFormat:"/logtransfer/%s/log_config"}
+2023/07/28 23:13:39.616 [D]  conn to es success
+2023/07/28 23:13:39.617 [D]  etcd addr:192.168.112.100:2379
+2023/07/28 23:13:39.617 [D]  etcd watch key:[/logtransfer/192.168.112.100/log_config /logtransfer/172.17.0.1/log_config /logtransfer/172.18.0.1/log_config /logtransfer/172.19.0.1/log_config], timeout:5000000000
+2023/07/28 23:13:39.618 [D]  init etcd succ
+2023/07/28 23:13:39.634 [D]   "/logtransfer/192.168.112.100/log_config" : "[\"log\"]"
+
+2023/07/28 23:13:42.675 [D]  connect to kafka succ, topic:log
+2023/07/28 23:26:21.325 [D]  init log succ, config:main.AppConfig{logPath:"./logs/transfer.log", logLevel:"debug", kafkaAddr:"192.168.112.100:9092", esAddr:"http://127.0.0.1:9200/", esThreadNum:8, etcdAddr:"192.168.112.100:2379", etcdKeyFormat:"/logtransfer/%s/log_config"}
+2023/07/28 23:26:21.329 [D]  conn to es success
+2023/07/28 23:26:21.332 [D]  etcd addr:192.168.112.100:2379
+2023/07/28 23:26:21.332 [D]  etcd watch key:[/logtransfer/192.168.112.100/log_config /logtransfer/172.17.0.1/log_config /logtransfer/172.18.0.1/log_config /logtransfer/172.19.0.1/log_config], timeout:5000000000
+2023/07/28 23:26:21.335 [D]  init etcd succ
+2023/07/28 23:26:21.336 [D]   "/logtransfer/192.168.112.100/log_config" : "[\"log\"]"
+
+2023/07/28 23:26:23.574 [D]  connect to kafka succ, topic:log
+2023/07/28 23:52:23.845 [D]  Partition:0, Offset:10, Key:, Value:asdasdasddassdsasd
+2023/07/28 23:52:25.055 [D]  Partition:0, Offset:11, Key:, Value:asdasdasddassdasd
+2023/07/28 23:52:25.927 [D]  Partition:0, Offset:12, Key:, Value:asdasdasddassdsasdasd
+2023/07/28 23:52:26.748 [D]  Partition:0, Offset:13, Key:, Value:asdasdasddassdasd
+2023/07/28 23:52:26.749 [E]  send to es failed,err:no Elasticsearch node available
+2023/07/28 23:52:27.225 [D]  send to es success
+2023/07/28 23:52:27.225 [D]  send to es success
+2023/07/28 23:52:27.236 [D]  send to es success
+2023/07/28 23:56:10.367 [D]  Partition:0, Offset:14, Key:, Value:asdasdasddassdsasdd
+2023/07/28 23:56:12.779 [D]  Partition:0, Offset:15, Key:, Value:asdasdasddassdsasdasd
+2023/07/28 23:56:12.779 [D]  Partition:0, Offset:16, Key:, Value:asdasdasddassdasdsd
+2023/07/28 23:56:12.779 [D]  Partition:0, Offset:17, Key:, Value:asdasdasddassdasda
+2023/07/28 23:56:12.779 [D]  Partition:0, Offset:18, Key:, Value:sd
+2023/07/28 23:56:12.779 [D]  Partition:0, Offset:19, Key:, Value:sdasdasddassdasd
+2023/07/28 23:56:12.779 [D]  Partition:0, Offset:20, Key:, Value:asdasdasddassdasd
+2023/07/28 23:56:12.779 [D]  Partition:0, Offset:21, Key:, Value:asdasdasddassdasdasdasd
+2023/07/28 23:56:12.779 [D]  Partition:0, Offset:22, Key:, Value:asdasdasddassdasd
+2023/07/28 23:56:12.779 [D]  Partition:0, Offset:23, Key:, Value:asdasdasddassdasd
+2023/07/28 23:56:12.779 [D]  Partition:0, Offset:24, Key:, Value:asdasdasddassdasdasdasd
+2023/07/28 23:56:12.779 [D]  Partition:0, Offset:25, Key:, Value:asdasdasddassdasd
+2023/07/28 23:56:12.779 [D]  Partition:0, Offset:26, Key:, Value:asdasdasddassdasdasdasd
+2023/07/28 23:56:12.779 [D]  Partition:0, Offset:27, Key:, Value:asdasdasddassdasd
+2023/07/28 23:56:12.779 [D]  Partition:0, Offset:28, Key:, Value:asdasdasddassdasdasdasd
+2023/07/28 23:56:12.779 [D]  Partition:0, Offset:29, Key:, Value:asdasdasddassdasd
+2023/07/28 23:56:12.779 [D]  Partition:0, Offset:30, Key:, Value:asdasdasddassdasdasdasd
+2023/07/28 23:56:12.785 [E]  send to es failed,err:no Elasticsearch node available
+2023/07/28 23:56:12.814 [D]  send to es success
+2023/07/28 23:56:12.819 [D]  send to es success
+2023/07/28 23:56:12.820 [D]  send to es success
+2023/07/28 23:56:12.834 [D]  send to es success
+2023/07/28 23:56:12.834 [D]  send to es success
+2023/07/28 23:56:12.863 [D]  send to es success
+2023/07/28 23:56:12.870 [D]  send to es success
+2023/07/28 23:56:12.870 [D]  send to es success
+2023/07/28 23:56:12.876 [D]  send to es success
+2023/07/28 23:56:12.876 [D]  send to es success
+2023/07/28 23:56:12.876 [D]  send to es success
+2023/07/28 23:56:12.891 [D]  send to es success
+2023/07/28 23:56:12.893 [D]  send to es success
+2023/07/28 23:56:12.896 [D]  send to es success
+2023/07/28 23:56:12.896 [D]  send to es success
+2023/07/28 23:56:12.904 [D]  send to es success
